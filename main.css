@@ -1,0 +1,94 @@
+:root {
+    --darkblue: #354259;
+    --darkred: #5f1c1c;
+    --paleyellow: #ffbd9f;
+}
+header {
+    text-align: center;
+    font: 17px monospace;
+    color: #070a38;
+    padding: 0.5em 0;
+    background-color: var(--paleyellow);
+}
+#headerNav {
+    border: 7px outset var(--darkblue);
+    background-color: #ADD8E6;
+}
+body {
+    max-width: 80%;
+    margin: auto;
+    color: black;
+    font: 20px monospace;
+    background-image: linear-gradient(to bottom right, #F7D8BA, white);
+}
+
+/*About me*/
+main {
+    width: 60%;
+    height: 415px;
+    border-right: 7px dotted var(--darkblue);
+    float: left;
+    padding: 20px;
+}
+
+/*Hobbies and favorite site link*/
+aside {
+    width: 33%;
+    float: right;
+    padding: 2em 0;
+    background-image: url(stag_simple.png);
+    background-size: 108px;
+}
+
+p, h2, ol {
+    margin: 30px;
+}
+
+#nav_menu ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0.25em;
+}
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+#nav_menu ul li a {
+    font: 25px bold;
+    font-family: monospace;
+    color: var(--darkred);
+}
+#nav_menu ul li a.current {text-decoration: none;}
+
+footer {
+    clear: both;
+    border-top: 3px solid var(--darkblue);
+    text-align: center;
+    color: #070a38;
+    padding: 20px;
+    background-color: var(--paleyellow);
+}
+
+/*For about page*/
+.medraw {
+    display:block;
+    margin:auto;
+    width:450px;
+}
+/*For the art page*/
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column img {
+    margin-top: 12px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

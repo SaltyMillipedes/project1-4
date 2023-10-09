@@ -1,0 +1,36 @@
+
+body {
+    background: #FFF3DA;
+    color: #354259:
+    font-family: arial;
+    text-align: center;
+}
+header, h2, h3 {
+    font-family: Courier;
+    text-decoration: underline;  
+}
+p, ol, ul {
+    font: 18px arial;
+    border-style: dotted;
+    margin: 10px 200px auto;
+    padding: 30px;
+    display: inline-block;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+}
+section {
+    font: 19px arial;
+    border-style: hidden;
+    margin: 10px 200px auto;
+    padding: 30px;
+    display: inline-block;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: center;
+}
+footer {
+    border-style: ridge;
+    font-family: arial;
+    text-align: center;
+}
